@@ -47,16 +47,18 @@ export default function Nav() {
           animateNav && "py-0    bg-black/50 trasition ease-in-out duration-500"
         } mx-auto   justify-between   `}
       >
-        <Link href="/">
-          <a className="inline-flex mx-4 mb-4 text-2xl font-semibold cursor-pointer md:mt-2 font-logo md:text-3xl md:ml-8 lg:ml-16">
-            <Image
-              src="/bennka-bbb-small.png"
-              alt="logo"
-              height={69}
-              width={225}
-            />
-          </a>
-        </Link>
+        <div className="flex w-56 pb-2 md:w-auto ">
+          <Link href="/">
+            <a className="inline-flex mx-4 text-2xl font-semibold cursor-pointer md:mt-2 font-logo md:text-3xl md:ml-8 lg:ml-16">
+              <Image
+                src="/bennka-bbb-small.png"
+                alt="logo"
+                height={92}
+                width={300}
+              />
+            </a>
+          </Link>
+        </div>
 
         {/* The Side Bar Menu for screens smaller than 'Medium' */}
         <AnimatePresence>
