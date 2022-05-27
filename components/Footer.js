@@ -18,17 +18,15 @@ export default function Contact() {
         <div className="flex flex-col">
           <FadeRight>
             <h1 className="pr-2 mb-8 text-4xl font-semibold md:text-5xl lg:text-6xl lg:w-1/2">
-              Company name and logo.
+              Bennka Landscapes
             </h1>
 
             <div className="flex flex-row mb-10">
-              <a href="https://facebook.com/trailbridgeweb">
+              <a href="https://www.facebook.com/BennkaLandscapes">
                 <Facebook className="w-8 h-8 mr-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight1" />
               </a>
-              <a href="https://twitter.com/trailbridgeweb">
-                <Twitter className="w-8 h-8 mr-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight1" />
-              </a>
-              <a href="https://instagram.com/trailbridgeweb">
+
+              <a href="https://www.instagram.com/bennkalandscapes/">
                 <Instagram className="w-8 h-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight1" />
               </a>
             </div>
@@ -40,34 +38,35 @@ export default function Contact() {
               <h2 className="flex flex-row w-max">Business Hours:</h2>
               <p className=" text-neutral-400 font-body">Monday to Friday</p>
               <p className=" text-neutral-400 font-body">
-                9:00am to 4:00pm EST
+                8:00am to 6:00pm EST
               </p>
             </div>
-            <a href="mailto:hello@trailbridgeweb.com">
-              <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max ">
+            <a href="mailto:bennkacorp@gmail.com">
+              <div className="flex flex-col mb-6 transition duration-100 ease-in-out transform cursor-pointer hover:text-highlight1 lg:mx-6 h-max w-max hover:scale-105">
                 <h2 className="flex flex-row w-max">
                   Email &nbsp;
                   <ArrowNarrowRightIcon className="w-4 h-4 mt-1 lg:h-5 md:h-5" />
                 </h2>
                 <p className=" text-neutral-400 font-body">
-                  hello@trailbridgeweb.com
+                  bennkacorp@gmail.com
                 </p>
               </div>
             </a>
-
-            <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max ">
-              <h2 className="flex flex-row w-max">
-                Phone &nbsp;
-                <ArrowNarrowRightIcon className="w-4 h-4 mt-1 lg:h-5 md:h-5" />
-              </h2>
-              <p className=" text-neutral-400 font-body">(613) 555-1234</p>
-            </div>
+            <a href="tel:+1-613-240-0211">
+              <div className="flex flex-col mb-6 transition duration-100 ease-in-out transform cursor-pointer hover:text-highlight1 lg:mx-6 h-max w-max hover:scale-105">
+                <h2 className="flex flex-row w-max">
+                  Phone &nbsp;
+                  <ArrowNarrowRightIcon className="w-4 h-4 mt-1 lg:h-5 md:h-5" />
+                </h2>
+                <p className=" text-neutral-400 font-body">(613) 240-0211</p>
+              </div>
+            </a>
           </div>
         </FadeIn>
       </div>
       <div className="flex flex-col justify-center py-12 text-base text-center border-t border-neutral-200 lg:text-lg text-neutral-400">
-        &copy; {getCurrentYear()} Trailbridge Web <br />
-        All Rights Reserved
+        &copy; {getCurrentYear()} Bennka Landscapes <br />
+        Powered by Trailbridge Web
       </div>
     </footer>
   );

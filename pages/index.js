@@ -8,6 +8,7 @@ import Features from "../components/Features.js";
 import Footer from "../components/Footer.js";
 import About from "../components/About.js";
 import Testimonials from "../components/Testimonials.js";
+import Gallery from "../components/Gallery";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Features />
       <About />
       <Testimonials />
+      <Gallery />
       <Footer />
     </>
   );

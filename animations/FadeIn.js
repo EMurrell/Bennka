@@ -18,7 +18,7 @@ function FadeIn({ children, isVisible }) {
       animate={controls}
       initial="hidden"
       transition={{
-        delay: 0.7,
+        delay: 1.0,
         type: "tween",
         duration: 0.3,
         staggerChildren: 0.5,

@@ -32,9 +32,9 @@ export default function Features() {
           <div className="grid grid-cols-1 md:gap-10 lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="py-6">
-                <div className="flow-root px-10 pb-8 mx-6 bg-white rounded shadow-lg h-60 shadow-neutral-800/50 lg:mx-0 md:mx-32 ">
+                <div className="flow-root px-10 pb-8 mx-6 bg-white shadow-lg h-60 shadow-neutral-800/50 lg:mx-0 md:mx-32 ">
                   <FadeUp>
-                    <h3 className="pt-10 pb-2 text-2xl font-medium tracking-tight text-neutral-900 ">
+                    <h3 className="pt-10 pb-2 text-3xl font-medium tracking-tight font-hand text-neutral-900 ">
                       {feature.name}
                     </h3>
                   </FadeUp>

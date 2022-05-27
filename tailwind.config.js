@@ -5,8 +5,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Roboto"],
+      sans: ["Helvetica"],
       serif: ["Georgia"],
+      hand: ["Kaushan Script"],
     },
     extend: {
       backgroundImage: {

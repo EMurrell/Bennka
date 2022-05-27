@@ -10,7 +10,8 @@ import { useState, useEffect } from "react";
 const links = [
   { name: "About", to: "#About", id: 1 },
   { name: "Testimonial", to: "#Testimonial", id: 2 },
-  { name: "Contact", to: "#Contact", id: 3 },
+  { name: "Gallery", to: "#Gallery", id: 3 },
+  { name: "Contact", to: "#Contact", id: 4 },
 ];
 
 const itemVariants = {
@@ -49,7 +50,7 @@ export default function Nav() {
       >
         <div className="flex w-56 pb-2 md:w-auto ">
           <Link href="/">
-            <a className="inline-flex mx-4 text-2xl font-semibold cursor-pointer md:mt-2 font-logo md:text-3xl md:ml-8 lg:ml-16">
+            <a className="inline-flex pt-2 mx-4 text-2xl font-semibold cursor-pointer font-logo md:text-3xl md:ml-8 lg:ml-16">
               <Image
                 src="/bennka-bbb-small.png"
                 alt="logo"
@@ -90,8 +91,8 @@ export default function Nav() {
                       <Image
                         src="/bennka-bbb-small.png"
                         alt="trailbridge logo"
-                        height={69}
-                        width={225}
+                        height={46}
+                        width={150}
                       />
                     </div>
                   </a>
@@ -128,7 +129,7 @@ export default function Nav() {
             <a
               key={id}
               href={to}
-              className="mx-8 my-8 text-lg font-normal transition duration-300 ease-in-out transform hover:scale-150 lg:mx-12 9 md:text-xl hover:text-highlight1"
+              className="mx-6 my-8 text-lg font-normal transition duration-300 ease-in-out transform hover:scale-150 lg:mx-10 9 md:text-xl hover:text-highlight1 hover:underline"
             >
               {name}
             </a>
